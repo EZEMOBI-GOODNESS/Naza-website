@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Jardin Noir — Fine Dining</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/script.js">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#">Le Jardin Noir</a>
+  <ul class="nav-links">
+    <li><a href="#carte">Carte du Jour</a></li>
+    <li><a href="#chef">Chef's Table</a></li>
+    <li><a href="#tasting">Dégustation</a></li>
+    <li><a href="#drinks">Drinks</a></li>
+    <li><a href="#desserts">Desserts</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-ornament"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Established 1897 · Paris</p>
+    <h1 class="hero-name">Le Jardin Noir</h1>
+    <p class="hero-sub">A table of extraordinary pleasures</p>
+    <div class="divider-ornament">
+      <span></span><i></i><span></span>
+    </div>
+    <a class="hero-cta" href="#carte">Explore the Menu</a>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<div class="menu-intro-strip">
+  All prices are in USD · Menu changes with the seasons · Chef recommends the tasting menu
+</div>
+
+<!-- ── SECTION 1: CARTE DU JOUR (newspaper) ── -->
+<section class="menu-newspaper" id="carte">
+  <div class="newspaper-header">
+    <h2>Carte du Jour</h2>
+    <p class="dateline">Spring–Summer Collection · Chef Mathieu Laurent</p>
+  </div>
+  <div class="newspaper-grid">
+    <!-- STARTERS -->
+    <div class="newspaper-col reveal">
+      <p class="newspaper-col-title">Entrées · Starters</p>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Soupe à l'oignon <span class="newspaper-tag">Classic</span></span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$18</span>
+        </div>
+        <p class="newspaper-desc">Slow-caramelised onions, Gruyère crouton, aged cognac broth</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Foie Gras Torchon</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$34</span>
+        </div>
+        <p class="newspaper-desc">Duck foie gras, Sauternes gelée, toasted brioche, pink peppercorn</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Oysters Rockefeller <span class="newspaper-tag">Chef's</span></span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$29</span>
+        </div>
+        <p class="newspaper-desc">Fine de Claire No. 3, spinach cream, Pernod, crispy shallots</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Garden Crudité</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$16</span>
+        </div>
+        <p class="newspaper-desc">Seasonal vegetables, anchoïade, herb vinaigrette</p>
+      </div>
+    </div>
+    <!-- MAINS -->
+    <div class="newspaper-col reveal" style="transition-delay:.15s">
+      <p class="newspaper-col-title">Plats Principaux · Mains</p>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Canard Rôti <span class="newspaper-tag">Signature</span></span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$58</span>
+        </div>
+        <p class="newspaper-desc">Roast duck breast, cherry gastrique, celeriac purée, wild herbs</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Bouillabaisse</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$64</span>
+        </div>
+        <p class="newspaper-desc">Marseille-style, branzino, mussels, prawns, saffron rouille</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Entrecôte Bordelaise <span class="newspaper-tag">Chef's</span></span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$78</span>
+        </div>
+        <p class="newspaper-desc">Dry-aged ribeye 28 days, bone marrow, Bordeaux jus, frites</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Risotto Forestier</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$42</span>
+        </div>
+        <p class="newspaper-desc">Carnaroli rice, porcini, black truffle, aged Parmesan (V)</p>
+      </div>
+    </div>
+    <!-- SIDES -->
+    <div class="newspaper-col reveal" style="transition-delay:.3s">
+      <p class="newspaper-col-title">Accompagnements · Sides</p>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Gratin Dauphinois</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$12</span>
+        </div>
+        <p class="newspaper-desc">Slow-baked potato, crème fraîche, nutmeg, Comté</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Haricots Verts</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$10</span>
+        </div>
+        <p class="newspaper-desc">French green beans, toasted almonds, lemon butter</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Pommes Sarladaises</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$11</span>
+        </div>
+        <p class="newspaper-desc">Duck fat potatoes, garlic, flat leaf parsley</p>
+      </div>
+      <div class="newspaper-item">
+        <div class="newspaper-item-header">
+          <span class="newspaper-item-name">Ratatouille</span>
+          <span class="newspaper-dots"></span>
+          <span class="newspaper-price">$13</span>
+        </div>
+        <p class="newspaper-desc">Provençal vegetable tian, basil coulis (V, GF)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 2: CHEF'S TABLE (card gallery) ── -->
+<section class="menu-cards" id="chef">
+  <div class="menu-cards-header reveal">
+    <div>
+      <p class="section-label">Curated selection</p>
+      <h2 class="section-title">Chef's <em>Table</em></h2>
+    </div>
+    <p class="section-intro">Hover each dish to reveal the story behind its creation</p>
+  </div>
+  <div class="cards-track">
+    <div class="dish-card reveal">
+      <div class="dish-card-img" style="background:linear-gradient(135deg,#2d1a0e,#4a2a12)">🦆</div>
+      <div class="dish-card-overlay"></div>
+      <div class="dish-card-body">
+        <p class="dish-card-cat">Poultry</p>
+        <p class="dish-card-name">Confit de Canard</p>
+        <p class="dish-card-price">$54</p>
+        <p class="dish-card-desc">Slow-cooked duck leg 48 hrs, lentils du Puy, truffle vinaigrette, crispy duck skin</p>
+      </div>
+    </div>
+    <div class="dish-card reveal" style="transition-delay:.1s">
+      <div class="dish-card-img" style="background:linear-gradient(135deg,#0e2d24,#12402e)">🦞</div>
+      <div class="dish-card-overlay"></div>
+      <div class="dish-card-body">
+        <p class="dish-card-cat">Fruits de Mer</p>
+        <p class="dish-card-name">Homard Bleu</p>
+        <p class="dish-card-price">$96</p>
+        <p class="dish-card-desc">Blue Brittany lobster, bisque foam, caviar butter, tarragon oil, edible flowers</p>
+      </div>
+    </div>
+    <div class="dish-card reveal" style="transition-delay:.2s">
+      <div class="dish-card-img" style="background:linear-gradient(135deg,#2a0e1a,#401228)">🥩</div>
+      <div class="dish-card-overlay"></div>
+      <div class="dish-card-body">
+        <p class="dish-card-cat">Viande</p>
+        <p class="dish-card-name">Filet Wellington</p>
+        <p class="dish-card-price">$88</p>
+        <p class="dish-card-desc">Beef tenderloin, mushroom duxelles, duck liver parfait, puff pastry, Périgueux sauce</p>
+      </div>
+    </div>
+    <div class="dish-card reveal" style="transition-delay:.3s">
+      <div class="dish-card-img" style="background:linear-gradient(135deg,#1a2a0e,#284012)">🌿</div>
+      <div class="dish-card-overlay"></div>
+      <div class="dish-card-body">
+        <p class="dish-card-cat">Végétarien</p>
+        <p class="dish-card-name">Jardin en Fleur</p>
+        <p class="dish-card-price">$44</p>
+        <p class="dish-card-desc">Heritage tomato tart, burrata, garden herbs, 25-year balsamic, fleur de sel</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 3: TASTING MENU ── -->
+<section class="menu-tasting" id="tasting">
+  <div class="tasting-layout">
+    <div class="tasting-sidebar reveal">
+      <p class="section-label">Seven Courses</p>
+      <h2 class="section-title">Menu <em>Dégustation</em></h2>
+      <div class="thin-rule" style="background:var(--terracotta)"></div>
+      <p class="section-intro">Our chef's narrative journey through the seasons — each plate a verse, the full menu a poem.</p>
+      <div class="tasting-price-badge">Full Tasting · $195 per person</div>
+      <br><br>
+      <div class="tasting-price-badge" style="border-color:var(--sage);color:var(--sage)">Wine Pairing · + $95</div>
+    </div>
+    <ul class="tasting-course-list reveal" style="transition-delay:.2s">
+      <li class="tasting-course">
+        <span class="course-number">I</span>
+        <div>
+          <p class="course-info-name">Amuse-Bouche du Moment</p>
+          <p class="course-info-sub">Chef's daily surprise — seasonal, spontaneous, unrepeatable</p>
+        </div>
+        <span class="course-price">Incl.</span>
+      </li>
+      <li class="tasting-course">
+        <span class="course-number">II</span>
+        <div>
+          <p class="course-info-name">Tartare de Thon Rouge</p>
+          <p class="course-info-sub">Bluefin tuna, avocado, yuzu, sesame, crystallised ginger</p>
+        </div>
+        <span class="course-price">Incl.</span>
+      </li>
+      <li class="tasting-course">
+        <span class="course-number">III</span>
+        <div>
+          <p class="course-info-name">Velouté de Champignons</p>
+          <p class="course-info-sub">Wild mushroom, truffle oil, hazelnut, Arbois foam</p>
+        </div>
+        <span class="course-price">Incl.</span>
+      </li>
+      <li class="tasting-course">
+        <span class="course-number">IV</span>
+        <div>
+          <p class="course-info-name">Saint-Jacques Rôties</p>
+          <p class="course-info-sub">Diver scallops, cauliflower velouté, Oscietra caviar, chive oil</p>
+        </div>
+        <span class="course-price">Incl.</span>
+      </li>
+      <li class="tasting-course">
+        <span class="course-number">V</span>
+        <div>
+          <p class="course-info-name">Sorbet de Champagne</p>
+          <p class="course-info-sub">Palate cleanser — pink grapefruit, Billecart-Salmon, mint</p>
+        </div>
+        <span class="course-price">Incl.</span>
+      </li>
+      <li class="tasting-course">
+        <span class="course-number">VI</span>
+        <div>
+          <p class="course-info-name">Pigeonneau Rôti</p>
+          <p class="course-info-sub">Roast squab, pomme fondant, foie gras, Porto reduction, watercress</p>
+        </div>
+        <span class="course-price">Incl.</span>
+      </li>
+      <li class="tasting-course">
+        <span class="course-number">VII</span>
+        <div>
+          <p class="course-info-name">Dessert du Chef</p>
+          <p class="course-info-sub">A three-act finale — petit gâteau, mignardises, café gourmand</p>
+        </div>
+        <span class="course-price">Incl.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ── SECTION 4: DRINKS (chalkboard) ── -->
+<section class="menu-drinks" id="drinks">
+  <div class="chalkboard-bg"></div>
+  <div class="reveal" style="max-width:900px;margin:0 auto">
+    <p class="section-label" style="color:var(--gold)">Boissons & Vins</p>
+    <h2 class="section-title">The <em>Cellar</em></h2>
+    <div class="thin-rule"></div>
+  </div>
+  <br><br>
+  <div class="drinks-grid">
+    <div class="reveal">
+      <p class="drinks-section-title">Cocktails de Maison</p>
+      <div class="drink-item"><span class="drink-name">Jardin Noir Sour <span class="drink-note">gin, basil, yuzu</span></span><span class="drink-price">$18</span></div>
+      <div class="drink-item"><span class="drink-name">La Fumée <span class="drink-note">mezcal, smoked honey</span></span><span class="drink-price">$19</span></div>
+      <div class="drink-item"><span class="drink-name">Poire & Safran <span class="drink-note">cognac, pear, saffron</span></span><span class="drink-price">$22</span></div>
+      <div class="drink-item"><span class="drink-name">Rose Absinthe <span class="drink-note">absinthe, lychee rose</span></span><span class="drink-price">$21</span></div>
+      <div class="drink-item"><span class="drink-name">L'Herboriste <span class="drink-note">Chartreuse, elderflower</span></span><span class="drink-price">$20</span></div>
+    </div>
+    <div class="reveal" style="transition-delay:.15s">
+      <p class="drinks-section-title">Vins Blancs</p>
+      <div class="drink-item"><span class="drink-name">Chablis 1er Cru <span class="drink-note">Burgundy 2021</span></span><span class="drink-price">$14 / $58</span></div>
+      <div class="drink-item"><span class="drink-name">Sancerre Blanc <span class="drink-note">Loire 2022</span></span><span class="drink-price">$16 / $68</span></div>
+      <div class="drink-item"><span class="drink-name">Condrieu <span class="drink-note">Rhône Valley 2020</span></span><span class="drink-price">$22 / $88</span></div>
+      <div class="drink-item"><span class="drink-name">Meursault <span class="drink-note">Burgundy 2019</span></span><span class="drink-price">$24 / $96</span></div>
+      <div class="drink-item"><span class="drink-name">Montrachet GC <span class="drink-note">Burgundy 2018</span></span><span class="drink-price">$—/ $280</span></div>
+    </div>
+    <div class="reveal" style="transition-delay:.3s">
+      <p class="drinks-section-title">Vins Rouges</p>
+      <div class="drink-item"><span class="drink-name">Crozes-Hermitage <span class="drink-note">Rhône 2020</span></span><span class="drink-price">$15 / $62</span></div>
+      <div class="drink-item"><span class="drink-name">Saint-Émilion <span class="drink-note">Bordeaux 2018</span></span><span class="drink-price">$18 / $74</span></div>
+      <div class="drink-item"><span class="drink-name">Gevrey-Chambertin <span class="drink-note">Burgundy 2017</span></span><span class="drink-price">$26 / $108</span></div>
+      <div class="drink-item"><span class="drink-name">Pomerol <span class="drink-note">Bordeaux 2016</span></span><span class="drink-price">$32 / $130</span></div>
+      <div class="drink-item"><span class="drink-name">Pétrus <span class="drink-note">Pomerol 2012</span></span><span class="drink-price">$— / $890</span></div>
+    </div>
+    <div class="reveal" style="transition-delay:.45s">
+      <p class="drinks-section-title">Champagne & Pétillants</p>
+      <div class="drink-item"><span class="drink-name">NV Billecart-Salmon <span class="drink-note">Brut</span></span><span class="drink-price">$20 / $85</span></div>
+      <div class="drink-item"><span class="drink-name">Louis Roederer <span class="drink-note">Blanc de Blancs</span></span><span class="drink-price">$28 / $115</span></div>
+      <div class="drink-item"><span class="drink-name">Dom Pérignon <span class="drink-note">Vintage 2015</span></span><span class="drink-price">$— / $295</span></div>
+      <div class="drink-item"><span class="drink-name">Krug Grande Cuvée <span class="drink-note">NV</span></span><span class="drink-price">$— / $360</span></div>
+      <div class="drink-item"><span class="drink-name">Cristal Rosé <span class="drink-note">2014</span></span><span class="drink-price">$— / $490</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SECTION 5: DESSERTS (price tags) ── -->
+<section class="menu-desserts" id="desserts">
+  <div class="reveal">
+    <p class="section-label" style="color:rgba(245,239,227,.7)">Douceurs de Fin</p>
+    <h2 class="section-title" style="color:var(--cream)">Sweet <em>Endings</em></h2>
+    <div class="thin-rule" style="background:rgba(245,239,227,.4)"></div>
+  </div>
+  <div class="dessert-tags-grid">
+    <div class="price-tag reveal">
+      <p class="tag-category">Signature</p>
+      <p class="tag-name">Tarte Tatin</p>
+      <p class="tag-desc">Upside-down caramelised apple, Isigny cream, Calvados ice cream, candied walnuts</p>
+      <div class="tag-price-row"><span class="tag-price">$16</span><span class="tag-portion">per person</span></div>
+    </div>
+    <div class="price-tag reveal" style="transition-delay:.1s">
+      <p class="tag-category">Chocolate</p>
+      <p class="tag-name">Fondant au Chocolat</p>
+      <p class="tag-desc">70% Valrhona lava cake, fleur de sel, Tahitian vanilla bean ice cream</p>
+      <div class="tag-price-row"><span class="tag-price">$18</span><span class="tag-portion">per person</span></div>
+    </div>
+    <div class="price-tag reveal" style="transition-delay:.2s">
+      <p class="tag-category">Classic</p>
+      <p class="tag-name">Crème Brûlée</p>
+      <p class="tag-desc">Madagascar vanilla custard, caramelised Demerara crust, fresh red berries</p>
+      <div class="tag-price-row"><span class="tag-price">$14</span><span class="tag-portion">per person</span></div>
+    </div>
+    <div class="price-tag reveal" style="transition-delay:.3s">
+      <p class="tag-category">Seasonal</p>
+      <p class="tag-name">Vacherin Glacé</p>
+      <p class="tag-desc">Raspberry & rose ice cream, meringue nest, mango coulis, mint</p>
+      <div class="tag-price-row"><span class="tag-price">$17</span><span class="tag-portion">per person</span></div>
+    </div>
+    <div class="price-tag reveal" style="transition-delay:.4s">
+      <p class="tag-category">Cheese</p>
+      <p class="tag-name">Plateau de Fromages</p>
+      <p class="tag-desc">Selection of five French cheeses, honeycomb, fig compote, walnut bread</p>
+      <div class="tag-price-row"><span class="tag-price">$24</span><span class="tag-portion">per person</span></div>
+    </div>
+    <div class="price-tag reveal" style="transition-delay:.5s">
+      <p class="tag-category">Share</p>
+      <p class="tag-name">Mignardises</p>
+      <p class="tag-desc">An assortment of macarons, financiers, truffles & petit fours for the table</p>
+      <div class="tag-price-row"><span class="tag-price">$28</span><span class="tag-portion">for two</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p class="footer-name">Le Jardin Noir</p>
+  <p class="footer-tagline">A table of extraordinary pleasures since 1897</p>
+  <div class="footer-info">
+    <span>12 Rue du Faubourg, Paris</span>
+    <a href="#">Reservations</a>
+    <span>Tue–Sat · 18h30–23h00</span>
+    <a href="#">Private Dining</a>
+    <span>+33 1 45 XX XX XX</span>
+  </div>
+  <p class="footer-copy">© 2025 Le Jardin Noir · All rights reserved · Prices subject to change · Gratuity not included</p>
+</footer>
+</body>
+</html>
